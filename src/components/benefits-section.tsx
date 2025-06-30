@@ -42,7 +42,7 @@ export function BenefitsSection({ benefits }: BenefitsSectionProps) {
         animate="visible"
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
       >
-        {benefits.map((benefit, index) => (
+        {benefits.map((benefit) => (
           <motion.div
             key={benefit.id}
             variants={cardVariants}
